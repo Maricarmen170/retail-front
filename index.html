@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SithScript</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/fontello.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+        <h1 class="icon-chart-bar header__title">SithScript</h1>
+        <input type="checkbox" class="menu__bar" />
+        <label  class="icon-menu menu__icon" for="menu-bar"></label>
+        <nav class="menu">
+            <ul>
+                <a class="menu__item" href="#Inicio">Inicio</a>
+                <a class="menu__item" href="#aboutUs">Nosotros</a>
+                <a class="menu__item" href="#about__contact">Contacto</a>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <img  class="banner__image" src="images/design.png" alt="image">
+            <div class="banner__container">
+                <h2 class="banner__title" id="Inicio">Análisis de <br>Segmentación <br>de Clientes</h2>
+                <a class="banner__subtitle" href="#charts-section">Leer más</a>
+            </div>
+        </section>
+        <section class="welcome">
+            <div class="welcome__text">
+                <h2>Segmentación <br>de Clientes</h2>
+                <p>En una era donde las decisiones estratégicas de las empresas dependen cada vez más de los datos,la segmentación efectiva de cliente es esencial.
+                    Por ello, en SithScript impulsamos tu negocio con análisis de datos de vanguardia.</p>
+            </div>
+        </section>
+
+        <section class="chart">
+            <h2 class="underline">Ingresos Promedio por Región</h2>
+            <p>El promedio de los ingresos proviene de los países del resto del mundo, mientras que, los países que tienen más ingresos en promedio de forma individual son Francia y Alemania con alrededor de 25 y por debajo de estos se encuentra Reino Unido con 20. En cambio, en términos de ingresos totales, Reino Unido es el que aporta la mayor cantidad de ingresos seguido de los países que conforman al resto del mundo, Alemania y Francia.</p>
+            <canvas id="myBarra1"></canvas>
+        </section>
+        
+        <section class="chart">
+            <h2 class="underline">Ingresos Totales por Región</h2>
+            <p>En resumen, aunque los ingresos promedio más altos provienen de Francia y Alemania, el Reino Unido sobresale en términos de ingresos totales. Esto indica que, a pesar de tener un ingreso promedio similar al de Francia y Alemania, el Reino Unido tiene un volumen total de ingresos más significativo, posiblemente debido a una mayor cantidad de fuentes de ingresos o un mercado más amplio. Esta diferenciación subraya la importancia de considerar tanto los ingresos promedio como los totales para una evaluación financiera más completa.</p>
+            <canvas id="myBarra2"></canvas>
+        </section>
+        <section class="chart">
+            <h2 class="underline">Ingresos Totales Diarios</h2>
+            <p>En gráfico de ingresos totales diarios se observa que los ingresos son muy variados, tienden a subir y bajar diariamente, sin embargo, hay tres picos en donde los ingresos son muy altos, siendo el 18 de enero y 20 de septimebre y el 9 de diciembre del 2020.</p>
+            <button id="loadDataButto">Lineal1</button>
+            <canvas id="myLinea1"></canvas>
+        </section>
+        <section class="chart">
+            <h2 class="underline">Ingresos Totales Por Mes</h2>
+            <p>En el gráfico de los ingresos totales por mes se observa que estos aumentan drásticamente a partir del mes de septiembre hasta novimebre, y disminuyen en el mes de diciembre.</p>
+            <canvas id="myLinea2"></canvas>
+        </section>
+        <section class="chart">
+            <h2 class="underline">Recencia Promedio por Categoría</h2>
+            <p>En resumen, Recencia Promedio por Categoría aunque los ingresos promedio más altos </p>
+            <canvas id="myBarra3"></canvas>
+        </section>
+        <section id="upload-section">
+            <h2></h2>
+            <butto id="loadDataButton"></butto>
+        </section>
+        <section id="charts-section">
+            <h2 class="icon-chart-bar underline">El Hackathon Retail Challenge</h2>
+            <p>El Hackathon Retail Challenge es una competencia amistosa en la que nos retan a realizar un análisis de segmentación de clientes....y presentarlos de forma accesible en línea. Trabajando junto a compañeros de Data Science, Data Analist y Desarrollo Web, creamos un sitio web que recoge.....
+
+                Este hackathon ha sido una experiencia enriquecedora que nos permitió sumergirnos en el trabajo en equipo, tomar decisiones basadas en los datos aportados por nuestros colegas en Data Scientist y Data Analist . Con dedicación, creamos un sitio web que combina atractivo visual e interactividad para los usuarios.
+            🫰</p>
+        </section>
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/app.js"></script>
+    <section class="about" id="aboutUs">
+        <h1 class="about__title"></h1>
+        <div class="about__container">
+            <article class="about__article">
+                <img class="about__image" src="./images/Maricarmen.jpeg" alt="">
+                <h4 class="about__name">Maricarmen Lizet</h4>
+                <h4 class="about__profesion">Web Developer</h4>
+            </article>
+            <article class="about__article">
+                <img class="about__image" src="./images/JoseManuel.jpg" alt="">
+                <h4 class="about__name">Jose Manuel</h4>
+                <h4 class="about__profesion">Data Scientist</h4>
+            </article>
+            <article class="about__article">
+                <img class="about__image" src="./images/JesusAlejandro.jpeg" alt="">
+                <h4 class="about__name">Jesus Alejandro</h4>
+                <h4 class="about__profesion">Data Analyst</h4>
+            </article>
+            <article class="about__article">
+                <img class="about__image" src="./images/Miriam.jpeg" alt="">
+                <h4 class="about__name">Miriam Pineda</h4>
+                <h4 class="about__profesion">Data Analyst</h4>
+            </article>
+            <article class="about__article">
+                <img class="about__image" src="./images/carlosGonzales.jpeg" alt="">
+                <h4 class="about__name">Carlos Gonzales</h4>
+                <h4 class="about__profesion">Data Analyst</h4>
+            </article>
+        </div>
+        <div id="about__contact">
+            <p class="icon-linkedin">Linkedin</p>
+            <p class="icon-facebook">Facebook</p>
+            <p class="icon-twitter">Twitter</p>
+        </div>
+
+    </section>
+    <footer class="footer">
+    </footer>
+</body>
+</html>
+

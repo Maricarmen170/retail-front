@@ -1,0 +1,112 @@
+
+
+@import url(../blocks/body/body.css);
+
+
+/*HEADER*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__container/header__container.css);
+
+/*MENU*/
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__icon/menu__icon.css);
+@import url(../blocks/menu/__bar/menu__bar.css);
+@import url(../blocks/menu/__item/menu___item.css);
+
+/*MAIN*/
+@import url(../blocks/main/main.css);
+
+/*BANNER*/
+@import url(../blocks/banner/banner.css);
+@import url(../blocks/banner/__image/banner__image.css);
+@import url(../blocks/banner/__container/banner__container.css);
+@import url(../blocks/banner/__title/banner__title.css);
+@import url(../blocks/banner/__subtitle/banner__subtitle.css);
+
+/*BIENVENIDOS*/
+@import url(../blocks/welcome/welcome.css);
+@import url(../blocks/welcome/___text/welcome__text.css);
+
+/*ABOUT*/
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__container/about__container.css);
+@import url(../blocks/about/__image/about__image.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__article/about__article.css);
+@import url(../blocks/about/__name/about__name.css);
+@import url(../blocks/about/__profesion/about__profesion.css);
+
+/*CHART*/
+@import url(../blocks/charts/charts.css);
+/*section {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+h2 {
+    color: #333;
+}*/
+
+button {
+    display: block;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    background-color:  #3f3e53;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8982a1;
+}
+
+canvas {
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 350;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    
+}
+
+p {
+    font-size: 28px;
+    margin-top: 40px;
+    color: #cecdc7;
+    text-align: center;
+
+}
+
+button{
+    justify-content: center
+}
+
+.icon-linkedin {
+    margin-top:70px;
+}
+
+.icon-twitter {
+    margin-bottom: 0;
+}
+

@@ -1,0 +1,9 @@
+.welcome {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2em;
+    text-align: center;
+    height: 300px;
+    display: table;
+    background: #1f1d1d;
+}
